@@ -8,7 +8,7 @@ Author : Manoj Kumar Subramanian
 
 This repository is as part of my Submission to the Project 5: Vehicle Detection Project for the Udacity Self Driving Car Nano Degree Program.
 
-In this project, the vehicles are found in a video file using the Computer Vision, Histogram of Oriented Gradients (HOG) with Linear Classifier technique. The coding is done in Python in Jupyter Notebook and below report details the list of activities done on this project.
+In this project, the vehicles are found in a video file using the Computer Vision, Histogram of Oriented Gradients (HOG) with Linear Classifier technique. The coding is done in Python in Jupyter Notebook [VehicleDetection.ipynb](VehicleDetection.ipynb) and below report details the list of activities done on this project.
 
 ------
 
@@ -28,7 +28,7 @@ The goals of this project are the following:
 
 ## Rubric Points
 
-###Writeup / README
+### Writeup / README
 
 This README document acts as the submission to meet the Rubric point related to Writeup. The steps followed to achieve the final video output are described in the following sections. 
 
@@ -36,7 +36,7 @@ All the code used in the lecture slides were used to make up this project. The p
 
 ------
 
-###Dataset Visualization
+### Dataset Visualization
 
 To make the classifier, the dataset provided in the project links from the example images of GTI vehicle image database and KITTI vision benchmark suite were used.
 
@@ -54,7 +54,7 @@ The following images provide the visualization for the dataset that are labelled
 
 ------
 
-###Histogram of Oriented Gradients (HOG)
+### Histogram of Oriented Gradients (HOG)
 
 **<u>1. HOG Extraction</u>**
 
