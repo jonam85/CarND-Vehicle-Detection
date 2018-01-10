@@ -28,7 +28,7 @@ The goals of this project are the following:
 
 ## Rubric Points
 
-### Writeup / README
+###Writeup / README
 
 This README document acts as the submission to meet the Rubric point related to Writeup. The steps followed to achieve the final video output are described in the following sections. 
 
@@ -48,7 +48,7 @@ The following images provide the visualization for the dataset that are labelled
 
 
 
-Samples of Non-vehicles
+**<u>Samples of Non-vehicles</u>**
 
 ![Sample_car_data](examples/Sample_nocar_data.png)
 
@@ -99,9 +99,9 @@ The below table gives the parameters used for training and the test accuracy for
 
 
 
-Out of these, since the HSV and HLS channels produced a high accuracy, I tried with the HSV in the first iteration. But during the stages of Sliding Window predictions, this produced a lot of false positives detecting the road as cars in the test images.
+Out of these, since the HSV and HLS channels produced a high accuracy, I tried with the HSV in the first iteration followed by HLS. But during the stages of Sliding Window predictions, this produced a lot of false positives detecting the road as cars in the test images.
 
-When tried on HLS, the normalization step produced a divide by zero error and hence discarded this.
+When tried on the other channels like LAB and YUV, the normalization step produced a divide by zero error and hence discarded these.
 
 Since the YCrCb produced an accuracy in the training set at around 99%, tried different combinations on the orientations, number of pixels per cell and the channels.
 
@@ -181,7 +181,7 @@ The final heat maps were labelled and the labelled boxes were drawn on to the or
 
 ![Test_outputs](examples/Test_outputs.png)
 
-
+The false detections in the fifth image is filtered out in the video processing pipeline using moving average method.
 
 ------
 
